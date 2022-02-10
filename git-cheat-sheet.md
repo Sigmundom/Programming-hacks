@@ -14,5 +14,5 @@ git branch | grep -v "master" | xargs git branch -D
 
 ## Save Credentials
 ```
-git config credential.helper store
+git config --global credential.helper store
 ```
