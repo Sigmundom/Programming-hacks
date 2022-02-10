@@ -11,3 +11,8 @@ Ref: <https://www.amitmerchant.com/push-newly-branch-without-upstream/>
 ```
 git branch | grep -v "master" | xargs git branch -D
 ```
+
+## Save Credentials
+```
+git config credential.helper store
+```
